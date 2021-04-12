@@ -202,5 +202,7 @@ switch(userAnswer) {
 
 
 printUseName(userName);
-console.log('don’t delete');
-alert ('don’t delete');
+
+
+/*console.log('don’t delete');
+alert ('don’t delete');*/
