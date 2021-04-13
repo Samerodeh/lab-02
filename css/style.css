@@ -61,17 +61,20 @@ header a:hover {
 
 main ul li {
     list-style-type: none;
+    background-color: rgb(24, 46, 68);
+    color: rgb(208, 236, 236);
+    font-weight: 500;
 
    
 }
 
-main ul li:nth-child(odd) { 
+main ol li:nth-child(odd) { 
     background-color: rgb(24, 46, 35);
     color: skyblue;
     font-weight: 500;
 }
 
-main ul li:nth-child(even) {
+main ol li:nth-child(even) {
 
     background-color: rgb(24, 46, 68);
     color: rgb(208, 236, 236);

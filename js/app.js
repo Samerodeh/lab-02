@@ -4,7 +4,7 @@
     
     function printUseName (name) {
    
-        console.log('userName var = ', userName);
+       // console.log('userName var = ', userName);
     
     alert ('Hello welcome to my site have a nice day ' + userName );
 } 
@@ -18,7 +18,7 @@
       
       function printUserInput (Input) {
    
-           console.log('userInput var =',userInput); 
+           // console.log('userInput var =',userInput); 
       
  } 
 
@@ -48,7 +48,7 @@
     
     function printUserAnswer (answer) {
    
-        console.log('userAnswer var =', userAnswer);
+        // console.log('userAnswer var =', userAnswer);
 
   
 
@@ -76,7 +76,7 @@
       
     function printUserOpinion (opinion) {
    
-         console.log('userOpinion var =', userOpinion);
+       //  console.log('userOpinion var =', userOpinion);
 
     
     
@@ -104,7 +104,7 @@
       
     function printUserThink (think) {
    
-         console.log('userThink var =', userThink);
+        // console.log('userThink var =', userThink);
 
     
     } 
@@ -131,7 +131,7 @@
       
     function printUserExpect (expect) {
    
-         console.log('userExpect var=', userExpect);
+        // console.log('userExpect var=', userExpect);
 
     
     }
@@ -155,5 +155,7 @@
     
   
  printUseName(userName);
+
+
 
 
