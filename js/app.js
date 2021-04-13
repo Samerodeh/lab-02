@@ -12,6 +12,7 @@
   printUseName(userName);
 
 
+
       let userInput = prompt('do you  expect i finished my study ?').toLowerCase();
       
       
@@ -154,8 +155,48 @@
   }
     
   
- printUseName(userName);
+  
+  let userNumber = prompt('guess my age', 'between 20 - 25');
+
+  console.log(userNumber);
+  
+ 
+  
+  if (userNumber <= 21) {
+      alert('your input too low ');
+  }
+  else if (userNumber >= 25) {
+      alert('your input too high');
+  }
+ // else {
+    //  alert('please ente a number');
+  //}
+  
+  if (userNumber == 23) {
+      alert(23);
+  }
+  
+  
+  let userGuess = prompt('Guess what year I was born', '1997');
+
+  console.log(userGuess);
+ 
+  if (userGuess <= 1998) {
+    alert('your input too low ');
+}
+else if (userGuess >= 1995) {
+    alert('your input too high');
+}
+// else {
+  //  alert('please ente a number');
+//}
+
+if (userGuess == 1997) {
+    alert(1997);
+}
+  
 
 
+printUseName(userName); 
 
 
