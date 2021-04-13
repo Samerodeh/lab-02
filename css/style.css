@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,500;1,700&display=swap'); 
 
 body { 
-    width: 1000px;
+    width: 950px;
     margin: 0 auto; 
     font-family: 'Ubuntu', sans-serif;
 }
@@ -44,7 +44,7 @@ header a:hover {
 
     text-transform: capitalize;
     font-size: 15px;
-    background-color: rgb(0, 26, 14);
+    background-color: rgb(5, 1, 70);
     color: rgb(168, 227, 241);
     font-weight: 700;
 }
@@ -61,10 +61,12 @@ header a:hover {
 
 main ul li {
     list-style-type: none;
+
+   
 }
 
 main ul li:nth-child(odd) { 
-    background-color: rgb(7, 15, 11);
+    background-color: rgb(24, 46, 35);
     color: skyblue;
     font-weight: 500;
 }
@@ -75,9 +77,11 @@ main ul li:nth-child(even) {
     color: rgb(208, 236, 236);
     font-weight: 500;
 }
+
 footer {
     text-align: center;
-    padding-left: 10px;
+    padding-left: 10px; 
+    padding-bottom: 10px;
 }
 
 footer li {

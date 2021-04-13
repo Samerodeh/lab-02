@@ -1,4 +1,4 @@
-  'use strict' 
+ 'use strict' 
 
   const userName = prompt('please ente your name')
     
@@ -22,11 +22,9 @@
       
  } 
 
- /*while (userInput !== 'yes' && userInput !== '') {
-    userInput = prompt('please choose yes or no');
- }*/
+ 
 
-  /*switch(userInput) {
+  switch(userInput) {
      case 'yes':
       alert ('wrong answer'); 
     break; 
@@ -36,7 +34,11 @@
      default:
       alert ('please chose yes or no');
     break;
- }*/
+ }
+
+  while (userInput !== 'yes' && userInput !== 'no') {
+    userInput = prompt('please choose yes or no');
+  }
 
 
     
@@ -52,7 +54,7 @@
 
  }    
 
-  /*switch(userAnswer) {
+  switch(userAnswer) {
     case 'yes':
      alert ('wrong answer'); 
    break; 
@@ -62,7 +64,12 @@
     default:
      alert ('please chose yes or no');
    break;
- }*/
+ }
+
+ while (userAnswer !== 'yes' && userAnswer !== 'no') {
+  userAnswer = prompt('please choose yes or no');
+}
+
     
     
    let userOpinion = prompt('Do you think I am studying programming ?').toLowerCase();
@@ -76,7 +83,7 @@
  } 
 
 
-  /*switch(userOpinion) {
+  switch(userOpinion) {
     case 'yes':
      alert ('right answer'); 
    break; 
@@ -86,7 +93,11 @@
     default:
      alert ('please chose yes or no');
    break;
-  } */
+  } 
+
+  while (userOpinion !== 'yes' && userOpinion !== 'no') {
+    userOpinion = prompt('please choose yes or no');
+  }
 
     
    let userThink = prompt('Do you think I studied a field other than programming ?').toLowerCase();
@@ -99,7 +110,7 @@
     } 
 
     
-  /*switch(userThink) {
+  switch(userThink) {
     case 'yes':
      alert ('right answer'); 
    break; 
@@ -109,7 +120,11 @@
     default:
      alert ('please chose yes or no');
    break;
-  }*/
+  } 
+
+  while (userThink !== 'yes' && userThink !== 'no') {
+    userThink = prompt('please choose yes or no');
+  }
 
    
    let userExpect = prompt('Do you think I studied programming in English ?').toLowerCase();
@@ -121,8 +136,8 @@
     
     }
 
-    
-  /*switch(userExpect) {
+
+ switch(userExpect) {
     case 'yes':
      alert ('right answer'); 
    break; 
@@ -132,77 +147,13 @@
     default:
      alert ('please chose yes or no');
    break;
-  }*/
-    
-    
-
-
-  switch(userInput) {
-   case 'yes':
-    alert ('wrong answer'); 
-  break; 
-   case 'no':
-    alert ('right answer');
-  break; 
-   default:
-    alert ('please choose yes or no');
-  break;
-}
-
-    
-
-switch(userAnswer) {
-    case 'yes':
-     alert ('wrong answer'); 
-   break; 
-    case 'no':
-     alert ('right answer');
-   break; 
-    default:
-     alert ('please choose yes or no');
-   break;
- }
-
- switch(userOpinion) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please choose yes or no');
-   break;
-  }
- 
-  switch(userThink) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please choose yes or no');
-   break;
-  } 
-
-  switch(userExpect) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please choose yes or no');
-   break;
   }
 
+  while (userExpect !== 'yes' && userExpect !== 'no') {
+    userExpect = prompt('please choose yes or no');
+  }
+    
+  
+ printUseName(userName);
 
 
-printUseName(userName);
-
-
-/*console.log('don’t delete');
-alert ('don’t delete');*/
