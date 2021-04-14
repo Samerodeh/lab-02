@@ -1,5 +1,5 @@
  'use strict' 
-
+ let score =0; 
   const userName = prompt('please ente your name')
     
     function printUseName (name) {
@@ -29,6 +29,7 @@ function studyStatus (){
    break; 
     case 'no':
      alert ('right answer');
+     score++;
    break; 
     default:
      alert ('please chose yes or no');
@@ -67,6 +68,7 @@ console.log(userInput);
        break; 
         case 'no':
          alert ('right answer');
+         score++;
        break; 
         default:
          alert ('please chose yes or no');
@@ -110,7 +112,8 @@ console.log(userInput);
    function studying (){
     switch(userOpinion) {
       case 'yes':
-       alert ('right answer'); 
+       alert ('right answer');
+       score++; 
      break; 
       case 'no':
        alert ('wrong answer');
@@ -156,7 +159,8 @@ console.log(userInput);
    function studyField (){
     switch(userThink) {
       case 'yes':
-       alert ('right answer'); 
+       alert ('right answer');
+       score++; 
      break; 
       case 'no':
        alert ('wrong answer');
@@ -201,7 +205,8 @@ console.log(userInput);
    function studyLanguage(){
     switch(userExpect) {
       case 'yes':
-       alert ('right answer'); 
+       alert ('right answer');
+       score++; 
      break; 
       case 'no':
        alert ('wrong answer');
@@ -253,7 +258,8 @@ console.log(userInput);
     }else if (userNumber > 23) {
         alert('your input too high');
     }else{
-      alert('your answer correct');
+      alert('right answer');
+      score++;
       i=77687;
     }
      }
@@ -279,25 +285,31 @@ console.log(userInput);
   }
   */
   
-  let userGuess = prompt('Guess what year I was born', '1997');
+  let countries = ['switzerland' , 'australia' , 'singapore' , 'russa'] 
 
-  console.log(userGuess);
+  console.log(countries);
+  for(let i=0 ; i<=6;i++){
+    if(i==6){
+      alert('You have exhausted all your attempts , These are the best countries for me :' + countries); 
+      break; 
+    
+    } 
+    let guessing = prompt("guess one of my favorite countries").toLowerCase(); 
+    for(let j= 0 ; j< countries.length;j++){
+      if(guessing==countries[j]){
+        alert('right answer , this is my favorite countries :' + countries); 
+        score++;
+        j= 567
+        i= 678
+      }
+    }
+    
+  }
  
-  if (userGuess <= 1998) {
-    alert('your input too low ');
-}
-else if (userGuess >= 1995) {
-    alert('your input too high');
-}
-// else {
-  //  alert('please ente a number');
-//}
-
-if (userGuess == 1997) {
-    alert(1997);
-}
-  
-
+ 
+console.log(score);
+alert('your score is ' + score);
+alert('The questions is over , thank you ' + userName);
 
 printUseName(userName); 
 
