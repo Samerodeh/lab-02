@@ -9,6 +9,10 @@ body {
 header {
     text-align: center;
     font-weight: 300;
+    background-color: grey; 
+    position: sticky;
+    top: 20px;
+    
 }
 
 header a {
@@ -85,6 +89,7 @@ footer {
     text-align: center;
     padding-left: 10px; 
     padding-bottom: 10px;
+    background-color: grey;
 }
 
 footer li {

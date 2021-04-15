@@ -27,7 +27,7 @@ function studyStatus (){
     case 'yes':
      alert ('wrong answer'); 
    break; 
-    case 'no':
+    case 'no' :
      alert ('right answer');
      score++;
    break; 
@@ -43,17 +43,7 @@ return userInput;
  
 studyStatus();
 console.log(userInput);
- /* switch(userInput) {
-     case 'yes':
-      alert ('wrong answer'); 
-    break; 
-     case 'no':
-      alert ('right answer');
-    break; 
-     default:
-      alert ('please chose yes or no');
-    break;
- }*/
+ 
 
   
 
@@ -89,23 +79,7 @@ console.log(userInput);
   
 
  }    
-/*
-  switch(userAnswer) {
-    case 'yes':
-     alert ('wrong answer'); 
-   break; 
-    case 'no':
-     alert ('right answer');
-   break; 
-    default:
-     alert ('please chose yes or no');
-   break;
- }
 
- while (userAnswer !== 'yes' && userAnswer !== 'no') {
-  userAnswer = prompt('please choose yes or no');
-}
-*/
     
     
    let userOpinion = prompt('Do you think I am studying programming ?').toLowerCase();
@@ -127,36 +101,22 @@ console.log(userInput);
       userOpinion = prompt('please choose yes or no');
     }
    }
+
    studying();
       
     function printUserOpinion (opinion) {
    
        //  console.log('userOpinion var =', userOpinion);
 
-    
-    
- } 
+    } 
 
 
- /* switch(userOpinion) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please chose yes or no');
-   break;
-  } 
 
-  while (userOpinion !== 'yes' && userOpinion !== 'no') {
-    userOpinion = prompt('please choose yes or no');
-  }
-*/
     
    let userThink = prompt('Do you think I studied a field other than programming ?').toLowerCase();
+   
    function studyField (){
+
     switch(userThink) {
       case 'yes':
        alert ('right answer');
@@ -183,23 +143,8 @@ console.log(userInput);
     
     } 
 
-/*    
-  switch(userThink) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please chose yes or no');
-   break;
-  } 
 
-  while (userThink !== 'yes' && userThink !== 'no') {
-    userThink = prompt('please choose yes or no');
-  }
-*/
+
    
    let userExpect = prompt('Do you think I studied programming in English ?').toLowerCase();
    function studyLanguage(){
@@ -216,7 +161,7 @@ console.log(userInput);
      break;
     }
   
-    while (userExpect !== 'yes' && userExpect !== 'no') {
+    while (userExpect !== 'yes' && userExpect !== 'no' ) {
       userExpect = prompt('please choose yes or no');
     }
    }
@@ -229,23 +174,7 @@ console.log(userInput);
     
     }
 
-/*
- switch(userExpect) {
-    case 'yes':
-     alert ('right answer'); 
-   break; 
-    case 'no':
-     alert ('wrong answer');
-   break; 
-    default:
-     alert ('please chose yes or no');
-   break;
-  }
 
-  while (userExpect !== 'yes' && userExpect !== 'no') {
-    userExpect = prompt('please choose yes or no');
-  }
-    */
  
  
  
@@ -270,20 +199,7 @@ console.log(userInput);
   
  
   
-  /*if (userNumber <= 21) {
-      alert('your input too low ');
-  }
-  else if (userNumber >= 25) {
-      alert('your input too high');
-  }
- // else {
-    //  alert('please ente a number');
-  //}
   
-  if (userNumber == 23) {
-      alert(23);
-  }
-  */
   
   let countries = ['switzerland' , 'australia' , 'singapore' , 'russa'] 
 
